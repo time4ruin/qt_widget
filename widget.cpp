@@ -87,3 +87,4 @@ void Widget::on_reset_clicked()
     str.sprintf("500: %d\n100: %d\n50: %d\n10: %d",m500,m100,m50,m10);
     QMessageBox::information(this, "Charge", str, "OK");
 }
+
